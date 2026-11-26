@@ -1,0 +1,7 @@
+build/
+lib/
+*.o
+*.d
+*.elf
+*.nro
+*.nacp
