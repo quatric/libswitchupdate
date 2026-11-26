@@ -25,7 +25,7 @@ in place over the running `.nro`, built on libnx. The Switch counterpart of
 Requires devkitPro with devkitA64 and libnx.
 
 ```sh
-export DEVKITPRO=/opt/devkitpro DEVKITA64=/opt/devkitpro/devkitA64
+export DEVKITPRO=/opt/devkitpro
 make            # produces lib/libswitchupdate.a
 make install    # copies into $DEVKITPRO/portlibs/switch
 ```
